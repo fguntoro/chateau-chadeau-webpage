@@ -1,0 +1,91 @@
+---
+const { title } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title} | Research Group</title>
+    <style>
+        :root {
+            --primary: #0f172a; /* Deep Navy */
+            --secondary: #475569; /* Slate Gray */
+            --accent: #2563eb; /* Academic Blue */
+            --bg: #f8fafc;
+            --text: #334155;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        header {
+            background: white;
+            border-bottom: 1px solid #e2e8f0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+        }
+        .logo {
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+            font-size: 1.25rem;
+        }
+        .nav-links a {
+            color: var(--secondary);
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-weight: 500;
+        }
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+            min-height: 75vh;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+            border-top: 1px solid #e2e8f0;
+            color: var(--secondary);
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/" class="logo">🧬 LabName Group</a>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="/team">Team</a>
+                <a href="/publications">Publications</a>
+                <a href="/internal">Internal Portal</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <slot />
+    </main>
+    <footer>
+        <p>&copy; {new Date().getFullYear()} LabName Research Group — University Department</p>
+    </footer>
+</body>
+</html>
