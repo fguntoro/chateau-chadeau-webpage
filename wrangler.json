@@ -1,0 +1,13 @@
+{
+  "name": "chateau-chadeau-webpage",
+  "compatibility_date": "2026-05-28",
+  "assets": {
+    "directory": "./dist"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "SESSION",
+      "id": "80fd67ad89a84ad98c622fa1e233d1d6"
+    }
+  ]
+}
