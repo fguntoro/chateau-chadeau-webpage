@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/layout.astro';
+
+// Structured data for easy maintenance
+const publications = [
+  {
+    title: "Scalable stability selection for high-dimensional omics data frameworks",
+    authors: "Guntoro F., Smith J., Chadeau-Hyam M.",
+    journal: "Bioinformatics",
+    year: "2026",
+    doi: "https://doi.org/10.1093/bioinformatics/xyz123"
+  },
+  {
+    title: "Rare variant association testing workflows in population-scale biobanks",
+    authors: "Smith J., Guntoro F.",
+    journal: "Nature Communications",
+    year: "2025",
+    doi: "#"
+  }
+];
+---
+<Layout title="Publications">
+    <h1 style="color: #0f172a;">Publications</h1>
+    <p style="color: #475569; margin-bottom: 2rem;">A selected list of our peer-reviewed research and preprints.</p>
+
+    <ol style="padding: 0; list-style: none;">
+        {publications.map((pub) => (
+            <li style="background: white; padding: 1.5rem; margin-bottom: 1rem; border-radius: 6px; border: 1px solid #e2e8f0;">
+                <span style="font-size: 0.85rem; text-transform: uppercase; font-weight: bold; color: #2563eb;">{pub.journal} ({pub.year})</span>
+                <h3 style="margin: 0.5rem 0; color: #0f172a;">{pub.title}</h3>
+                <p style="margin: 0 0 1rem 0; color: #475569; font-size: 0.95rem;">{pub.authors}</p>
+                <a href={pub.doi} style="color: #2563eb; text-decoration: none; font-size: 0.9rem; font-weight: 500;" target="_blank">Publisher Link &rarr;</a>
+            </li>
+        ))}
+    </ol>
+</Layout>
