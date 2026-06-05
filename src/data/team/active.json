@@ -11,7 +11,6 @@
     "name": "Hanh Lan Bui",
     "role": "PhD Candidate",
     "category": "phd",
-    //"bio": "Researching complex population health metrics.",
     "email": "h.bui@imperial.ac.uk",
     "avatar": "/images/team/hanh-lan.jpg"
   },
@@ -19,7 +18,6 @@
     "name": "Blanche Francheterre",
     "role": "PhD Candidate",
     "category": "phd",
-    //"bio": "Analyzing large-scale biomedical cohort data sets.",
     "email": "b.francheterre@imperial.ac.uk",
     "avatar": "/images/team/blanche-francheterre.jpg"
   },
@@ -27,7 +25,6 @@
     "name": "Dr. Lucas Cheng",
     "role": "Postdoctoral Researcher",
     "category": "staff",
-    //"bio": "Investigating computational biostatistics methodologies.",
     "email": "l.cheng@imperial.ac.uk",
     "avatar": "/images/team/lucas-cheng.jpg"
   },
@@ -35,7 +32,6 @@
     "name": "Dr. Matthew D Whitaker",
     "role": "Postdoctoral Researcher",
     "category": "staff",
-    //"bio": "Developing models for spatio-temporal epidemiology analyses.",
     "email": "m.whitaker@imperial.ac.uk",
     "avatar": "/images/team/matthew-whitaker.webp"
   },
@@ -43,7 +39,6 @@
     "name": "Joel Heller",
     "role": "PhD Candidate",
     "category": "phd",
-    //"bio": "Building data infrastructure solutions and application layers.",
     "email": "j.heller@imperial.ac.uk",
     "avatar": "/images/team/joel-heller.jpg"
   },
@@ -51,7 +46,6 @@
     "name": "Ruben Colindres Zuehlke",
     "role": "PhD Candidate",
     "category": "phd",
-    //"bio": "Supporting data science applications in epidemiology.",
     "email": "r.colindres@imperial.ac.uk",
     "avatar": "/images/team/ruben-colindres.jpg"
   },
@@ -59,7 +53,6 @@
     "name": "Alex Melendez",
     "role": "PhD Candidate",
     "category": "phd",
-    //"bio": "Curating and managing high-dimensional biobank data pipelines.",
     "email": "a.melendez@imperial.ac.uk",
     "avatar": "/images/team/alex-melendez.jpg"
   },
@@ -67,7 +60,6 @@
     "name": "Dr. Helene Colineaux",
     "role": "Postdoctoral Researcher",
     "category": "staff",
-    //"bio": "Focusing on environmental health and exposure tracking systems.",
     "email": "h.colineaux@imperial.ac.uk",
     "avatar": "/images/team/helene-colineaux.jpg"
   },
@@ -75,7 +67,6 @@
     "name": "Dr. Joshua Elliott",
     "role": "Postdoctoral Researcher",
     "category": "staff",
-    //"bio": "Advising on biomedical informatics architectures.",
     "email": "j.elliott@imperial.ac.uk",
     "avatar": "/images/team/joshua-elliott.png"
   },
@@ -83,7 +74,6 @@
     "name": "Ahlam Khamliche",
     "role": "PhD Candidate",
     "category": "phd",
-    //"bio": "Investigating omics integrations within longitudinal cohorts.",
     "email": "a.khamliche@imperial.ac.uk",
     "avatar": "/images/team/ahlan-khamliche.jpg"
   },
@@ -91,7 +81,6 @@
     "name": "Rin Wada",
     "role": "PhD Candidate",
     "category": "phd",
-    //"bio": "Working on data processing techniques and alignment.",
     "email": "r.wada@imperial.ac.uk",
     "avatar": "/images/team/rin-wada.webp"
   },
@@ -99,7 +88,6 @@
     "name": "Dr. Sabrina Rodrigues",
     "role": "Postdoctoral Researcher",
     "category": "staff",
-    //"bio": "Analyzing biomarkers and molecular disease risk vectors.",
     "email": "s.rodrigues@imperial.ac.uk",
     "avatar": "/images/team/sabrina-rodrigues.jpg"
   },
@@ -107,7 +95,6 @@
     "name": "Jackson Joseph",
     "role": "PhD Candidate",
     "category": "phd",
-    //"bio": "Maintaining high-performance computing clusters and security profiles.",
     "email": "j.joseph@imperial.ac.uk",
     "avatar": "/images/team/jackson-joseph.jpg"
   },
@@ -115,7 +102,6 @@
     "name": "Dr. Fernando Guntoro",
     "role": "Postdoctoral Researcher",
     "category": "staff",
-    //"bio": "Specializing in scalable stability selection pipelines and high-dimensional biobank data manipulation.",
     "email": "f.guntoro@imperial.ac.uk",
     "avatar": "/images/team/fernando-guntoro.jpg"
   }
