@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Prof. Marc Chadeau-Hyam",
+    "role": "Principal Investigator",
+    "category": "pi",
+    "bio": "Professor of Computational Epidemiology and Global Health at Imperial College London. Leading multi-omics integration and environmental health framework designs.",
+    "email": "m.chadeau@imperial.ac.uk",
+    "avatar": "/images/team/marc-chadeau-hyam.jpg"
+  },
+  {
+    "name": "Hanh Lan Bui",
+    "role": "PhD Candidate",
+    "category": "phd",
+    "bio": "Researching complex population health metrics.",
+    "email": "h.bui@imperial.ac.uk",
+    "avatar": "/images/team/placeholder.png"
+  },
+  {
+    "name": "Blanche Francheterre",
+    "role": "PhD Candidate",
+    "category": "phd",
+    "bio": "Analyzing large-scale biomedical cohort data sets.",
+    "email": "b.francheterre@imperial.ac.uk",
+    "avatar": "/images/team/placeholder.png"
+  },
+  {
+    "name": "Dr. Lucas Cheng",
+    "role": "Postdoctoral Researcher",
+    "category": "postdoc",
+    "bio": "Investigating computational biostatistics methodologies.",
+    "email": "l.cheng@imperial.ac.uk",
+    "avatar": "/images/team/placeholder.png"
+  },
+  {
+    "name": "Dr. Matthew D Whitaker",
+    "role": "Postdoctoral Researcher",
+    "category": "postdoc",
+    "bio": "Developing models for spatio-temporal epidemiology analyses.",
+    "email": "m.whitaker@imperial.ac.uk",
+    "avatar": "/images/team/placeholder.png"
+  },
+  {
+    "name": "Joel Heller",
+    "role": "PhD Candidate",
+    "category": "phd",
+    "bio": "Building data infrastructure solutions and application layers.",
+    "email": "j.heller@imperial.ac.uk",
+    "avatar": "/images/team/placeholder.png"
+  },
+  {
+    "name": "Ruben Colindres Zuehlke",
+    "role": "PhD Candidate",
+    "category": "phd",
+    "bio": "Supporting data science applications in epidemiology.",
+    "email": "r.colindres@imperial.ac.uk",
+    "avatar": "/images/team/placeholder.png"
+  },
+  {
+    "name": "Alex Melendez",
+    "role": "PhD Candidate",
+    "category": "phd",
+    "bio": "Curating and managing high-dimensional biobank data pipelines.",
+    "email": "a.melendez@imperial.ac.uk",
+    "avatar": "/images/team/placeholder.png"
+  },
+  {
+    "name": "Dr. Helene Colineaux",
+    "role": "Postdoctoral Researcher",
+    "category": "postdoc",
+    "bio": "Focusing on environmental health and exposure tracking systems.",
+    "email": "h.colineaux@imperial.ac.uk",
+    "avatar": "/images/team/placeholder.png"
+  },
+  {
+    "name": "Dr. Elizaveta Semenova",
+    "role": "Postdoctoral Researcher",
+    "category": "postdoc",
+    "bio": "Applying machine learning frameworks to spatial epidemiology data.",
+    "email": "e.semenova@imperial.ac.uk",
+    "avatar": "/images/team/placeholder.png"
+  },
+  {
+    "name": "Dr. Joshua Elliott",
+    "role": "Postdoctoral Researcher",
+    "category": "postdoc",
+    "bio": "Advising on biomedical informatics architectures.",
+    "email": "j.elliott@imperial.ac.uk",
+    "avatar": "/images/team/placeholder.png"
+  },
+  {
+    "name": "Ahlam Khamliche",
+    "role": "PhD Candidate",
+    "category": "phd",
+    "bio": "Investigating omics integrations within longitudinal cohorts.",
+    "email": "a.khamliche@imperial.ac.uk",
+    "avatar": "/images/team/placeholder.png"
+  },
+  {
+    "name": "Rin Wada",
+    "role": "PhD Candidate",
+    "category": "phd",
+    "bio": "Working on data processing techniques and alignment.",
+    "email": "r.wada@imperial.ac.uk",
+    "avatar": "/images/team/placeholder.png"
+  },
+  {
+    "name": "Dr. Sabrina Rodrigues",
+    "role": "Postdoctoral Researcher",
+    "category": "postdoc",
+    "bio": "Analyzing biomarkers and molecular disease risk vectors.",
+    "email": "s.rodrigues@imperial.ac.uk",
+    "avatar": "/images/team/placeholder.png"
+  },
+  {
+    "name": "Jackson Joseph",
+    "role": "PhD Candidate",
+    "category": "phd",
+    "bio": "Maintaining high-performance computing clusters and security profiles.",
+    "email": "j.joseph@imperial.ac.uk",
+    "avatar": "/images/team/placeholder.png"
+  },
+  {
+    "name": "Dr. Fernando Guntoro",
+    "role": "Postdoctoral Researcher",
+    "category": "postdoc",
+    "bio": "Specializing in scalable stability selection pipelines and high-dimensional biobank data manipulation.",
+    "email": "f.guntoro@imperial.ac.uk",
+    "avatar": "/images/team/fernando-guntoro.jpg"
+  },
+  {
+    "name": "Thomas Wright",
+    "role": "PhD Candidate",
+    "category": "phd",
+    "bio": "Focusing on rare variant association testing workflows within population-scale cohort data assets.",
+    "email": "t.wright@imperial.ac.uk",
+    "avatar": "/images/team/placeholder.png"
+  }
+]
