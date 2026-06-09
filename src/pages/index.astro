@@ -3,98 +3,192 @@ import Layout from '../layouts/layout.astro';
 ---
 
 <Layout title="Home">
-    <section style="
-        width: 100%;
-        background: #0f172a;
-        margin-top: -2rem; /* Pull flush against the site header navigation */
-        margin-bottom: 4rem;
-        display: grid;
-        grid-template-columns: 1.1fr 0.9fr;
-        align-items: center;
-        border-bottom: 4px solid #2563eb;
-    ">
-        <div style="padding: 4rem 3rem 5rem 4rem;">
-            <span style="
-                font-size: 0.85rem;
-                font-weight: 700;
-                text-transform: uppercase;
-                letter-spacing: 0.12rem;
-                color: #38bdf8;
-                display: block;
-                margin-bottom: 1rem;
-            ">Advancing Knowledge • Societal Impact</span>
-            
-            <h1 style="
-                color: #ffffff;
-                font-size: 2.8rem;
-                font-weight: 800;
-                line-height: 1.25;
-                margin: 0 0 1.5rem 0;
-                letter-spacing: -0.02rem;
-            ">Integrating Complex Synthesis, Methodology and Translational Science</h1>
-            
-            <div style="display: flex; gap: 1rem; margin-top: 2rem;">
-                <a href="/publications" style="
-                    background: #2563eb;
-                    color: white;
-                    text-decoration: none;
-                    padding: 0.8rem 1.6rem;
-                    border-radius: 4px;
-                    font-weight: 600;
-                    font-size: 0.9rem;
-                    text-transform: uppercase;
-                    letter-spacing: 0.05rem;
-                ">Learn About Our Research</a>
-                <a href="/team" style="
-                    background: transparent;
-                    color: #ffffff;
-                    text-decoration: none;
-                    padding: 0.8rem 1.6rem;
-                    border-radius: 4px;
-                    font-weight: 600;
-                    font-size: 0.9rem;
-                    border: 1px solid rgba(255, 255, 255, 0.3);
-                    text-transform: uppercase;
-                    letter-spacing: 0.05rem;
-                ">Meet The Group</a>
-            </div>
-        </div>
+  <section class="hero-container">
+    
+    <div class="hero-bg-network"></div>
 
-        <div style="
-            background: #0f172a; 
-            height: 100%; 
-            display: flex; 
-            justify-content: center; 
-            align-items: center;
-            padding: 2rem;
-        ">
-            <img src="/images/dark_network.png" alt="Multi-omic network simulation" style="
-                max-width: 90%;
-                max-height: 420px;
-                object-fit: contain;
-            " />
-        </div>
-    </section>
+    <div class="hero-content-card">
+      <span class="hero-tagline">Advancing Knowledge • Societal Impact</span>
+      
+      <h1 class="hero-title">
+        Integrating Complex Synthesis, Methodology and Translational Science
+      </h1>
+      
+      <div class="hero-actions">
+        <a href="/publications" class="btn btn-primary">Learn About Our Research</a>
+        <a href="/team" class="btn btn-secondary">Meet The Group</a>
+      </div>
+    </div>
 
-    <section style="max-width: 1100px; margin: 0 auto 4rem auto; padding: 0 2rem;">
-        <div style="text-align: center; margin-bottom: 4rem;">
-            <h2 style="font-size: 2rem; color: #0f172a; margin-bottom: 0.5rem; font-weight: 700;">Driving Research Forward</h2>
-            <p style="color: #475569; font-size: 1.1rem;">We are a dedicated team of scientists seeking to advance fundamental knowledge and impact society.</p>
-        </div>
+  </section>
 
-        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem;">
-            <div style="text-align: center;">
-                <h3 style="color: #2563eb; font-size: 1.25rem; margin-bottom: 0.75rem;">Computational Epidemiology</h3>
-                <p style="color: #475569; font-size: 0.9rem; line-height: 1.6;">Characterizing complex molecular signatures of the exposome, including cross-layer implications of environmental and social determinants.</p>
-            </div>
-            <div style="text-align: center;">
-                <h3 style="color: #2563eb; font-size: 1.25rem; margin-bottom: 0.75rem;">Biostatistics</h3>
-                <p style="color: #475569; font-size: 0.9rem; line-height: 1.6;">Developing novel, computationally robust stability selection methodologies engineered for high-dimensional multi-omic array testing parameters.</p>
-            </div>
-            <div style="text-align: center;">
-                <h3 style="color: #2563eb; font-size: 1.25rem; margin-bottom: 0.75rem;">Translational Science</h3>
-                <p style="color: #475569; font-size: 0.9rem; line-height: 1.6;">Leveraging massive population biobank data registries to explore underlying biological mechanisms and translate data directly into public health frameworks.</p>
-            </div>
-        </div>
-    </section>
+  <section class="info-grid-section">
+    <div class="section-header">
+      <h2>Driving Research Forward</h2>
+      <p>We are a dedicated team of scientists seeking to advance fundamental knowledge and impact society.</p>
+    </div>
+
+    <div class="three-column-grid">
+      <div class="grid-card">
+        <h3>Computational Epidemiology</h3>
+        <p>Characterizing complex molecular signatures of the exposome, including cross-layer implications of environmental and social determinants.</p>
+      </div>
+      <div class="grid-card">
+        <h3>Biostatistics</h3>
+        <p>Developing novel, computationally robust stability selection methodologies engineered for high-dimensional multi-omic array testing parameters.</p>
+      </div>
+      <div class="grid-card">
+        <h3>Translational Science</h3>
+        <p>Leveraging massive population biobank data registries to explore underlying biological mechanisms and translate data directly into public health frameworks.</p>
+      </div>
+    </div>
+  </section>
 </Layout>
+
+<style>
+  /* 1. Full-Width Structural Layout Engine */
+  .hero-container {
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-top: -2rem; /* Pulls flush right against standard top nav blocks */
+    min-height: 600px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    padding: 4rem calc((100vw - 1200px) / 2 + 2rem); /* Dynamic grid alignment padding */
+    box-sizing: border-box;
+    overflow: hidden;
+    border-bottom: 4px solid #ea580c;
+  }
+
+  /* 2. Seamless Full-Screen Network Background Asset */
+  .hero-bg-network {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/dark_network.png');
+    background-size: cover;
+    background-position: center right; /* Anchors the dense core graphics on the right window wing */
+    opacity: 0.75;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  /* 3. High-Contrast Text Containment Box */
+  .hero-content-card {
+    position: relative;
+    z-index: 2;
+    max-width: 620px;
+    padding: 3.5rem;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    margin: 2rem;
+  }
+
+  /* Typography Styles */
+  .hero-tagline {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12rem;
+    color: #38bdf8;
+    display: block;
+    margin-bottom: 1.25rem;
+  }
+
+  .hero-title {
+    color: #ffffff;
+    font-size: 2.8rem;
+    font-weight: 800;
+    line-height: 1.25;
+    margin: 0 0 2rem 0;
+    letter-spacing: -0.02rem;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  /* 4. Interactive Action Buttons with Premium Hover States */
+  .btn {
+    display: inline-block;
+    padding: 0.85rem 1.75rem;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); /* Ultra smooth ease tracking curve */
+  }
+
+  /* Primary Button (Solid Orange Theme Accent) */
+  .btn-primary {
+    background: #ea580c;
+    color: #ffffff;
+    border: 1px solid transparent;
+    box-shadow: 0 4px 12px rgba(234, 88, 12, 0.2);
+  }
+
+  .btn-primary:hover {
+    background: #f97316; /* Shifts slightly brighter on hover */
+    transform: translateY(-2px); /* Premium physical lift effect */
+    box-shadow: 0 6px 20px rgba(249, 115, 22, 0.4);
+  }
+
+  .btn-primary:active {
+    transform: translateY(0);
+  }
+
+  /* Secondary Button (Outline Style) */
+  .btn-secondary {
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: #ffffff;
+    transform: translateY(-2px);
+  }
+
+  .btn-secondary:active {
+    transform: translateY(0);
+  }
+
+  /* Lower Body Page Layout Structuring blocks */
+  .info-grid-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 4.5rem;
+  }
+
+  .section-header h2 {
+    font-size: 2.2rem;
+    color: #0f172a;
+    margin: 0 0 0.5rem 0;
+    font-weight: 800;
+    letter-spacing: -0.02rem;
+  }
+
+  .section-header p {
+    color: #475569;
+    font-size: 1.15
