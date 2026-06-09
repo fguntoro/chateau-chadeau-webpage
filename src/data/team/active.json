@@ -65,14 +65,14 @@
   },
   {
     "name": "Dr. Joshua Elliott",
-    "role": "Postdoctoral Researcher",
+    "role": "PhD Candidate",
     "category": "staff",
     "email": "j.elliott@imperial.ac.uk",
     "avatar": "/images/team/joshua-elliott.png"
   },
   {
     "name": "Ahlam Khamliche",
-    "role": "PhD Candidate",
+    "role": "Program Manager",
     "category": "phd",
     "email": "a.khamliche@imperial.ac.uk",
     "avatar": "/images/team/ahlam-khamliche.jpg"
@@ -86,10 +86,17 @@
   },
   {
     "name": "Dr. Sabrina Rodrigues",
-    "role": "Postdoctoral Researcher",
+    "role": "Senior Teaching Fellow",
     "category": "staff",
     "email": "s.andrade-rodrigues@imperial.ac.uk",
     "avatar": "/images/team/sabrina-rodrigues.jpg"
+  },
+  {
+    "name": "Dr. Dragana Vuckovic",
+    "role": "Assistant Professor",
+    "category": "staff",
+    "email": "d.vuckovic@imperial.ac.uk",
+    "avatar": "/images/team/dragana-vuckovic.jpg"
   },
   {
     "name": "Jackson Joseph",
