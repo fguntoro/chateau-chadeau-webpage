@@ -3,5 +3,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://chateau-chadeau.github.io'
+    site: 'https://fguntoro.github.io',
+    base: '/chateau-chadeau-webpage'
 });
